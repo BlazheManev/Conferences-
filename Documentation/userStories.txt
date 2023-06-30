@@ -1,0 +1,6 @@
+1. Kot organizator konference, želim vnesti prostore v katerih se bo konferenca odvijala in specifikacije konference, da si bodoči udeleženci lahko ogledajo vse željene informacije in da mi ni potrebno obveščevati vsakega posebej.
+2. Kot organizator konference, želim dodati udeležence konferenci, s tem bo se vsak željen udeleženec lahko registriral in preko same registracije tudi obvestil, da se namerava konference udeležiti.
+3. Kot organizator konference, želim videti možno invalidnost udeležencev, da lahko prostor prilagodim njihovim potrebam.
+4. Kot organizator konference, želim beležiti dejansko fizično prisotnost udeležencev, da bom na koncu imel pregled, koliko oseb se je dejansko udeležilo same konference.
+5. Kot udeleženec konference, želim imeti možnost slediti vsebinam, ki bodo na konferenci predstavljene, da se bom lahko pripravil na predavanja in imel boljši pregled nad celotno konferenco.
+6. Kot udeleženec konference, želim biti obveščen o novostih in spremembah, ki se nanašajo na konferenco, da bom vedno na tekočem s pomembnimi informacijami in ne bom zamudil pomembnih dogodkov. Želim prejemati obvestila preko maila, ko organizatorji dodajo nove udeležence ali ko pride do sprememb v programu konference

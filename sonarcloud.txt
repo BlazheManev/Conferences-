@@ -1,0 +1,7 @@
+Uporabljamo lasten runner, ki ga je potrbno namestiti preko shell
+Zaradi napak pri izvajanju pipeline-a, je bilo potrebno spremeniti konfiguracijsko datoteko runner-ja. 
+Izvajam test, če je zdaj konfiguracija ustrezna
+
+Konfiguracija je ustrezna, a prihaja do napak z environment variables. Narejenih je bilo nekaj lokalnih sprememb.
+
+Nastajanje problema, saj ukaz sonar-scanner ni prepoznan. Ponovni test pipeline, tokrat s shared runners enabled.
