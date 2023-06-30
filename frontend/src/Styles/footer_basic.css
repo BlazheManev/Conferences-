@@ -1,0 +1,104 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Titillium Web", sans-serif;
+}
+
+:root {
+	--mainColor: #0d2137;
+	--mainColorMedium: #193c5f;
+	--mainColorLight: #2e77ae;
+	--secondaryColor: #ff8e2b;
+	--textColor: #eee;
+}
+
+.footer_basic {
+    background-color: var(--mainColor);
+    padding-left: 5rem;
+	padding-right: 5rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.h6_socials {
+	text-align: left;
+	font-size: 1rem !important;
+	color: var(--textColor);
+}
+
+@media screen and (max-width: 899px) {
+	.h6_socials {
+		text-align: center;
+		font-size: 1rem !important;
+		color: var(--textColor);
+	}
+
+	.h2_left {
+		margin-top: 1rem;
+	}
+}
+
+.ikona_a {
+	text-align: center;
+	align-items: center;
+	vertical-align: middle;
+	margin-left: 2rem;
+	margin-right: 2rem;
+}
+
+.ikona {
+	text-align: center;
+	vertical-align: middle;
+	height: 20px;
+	width: 20px;
+	color: var(--textColor);
+}
+
+.ikona:hover {
+	text-align: center;
+	vertical-align: middle;
+	height: 20px;
+	width: 20px;
+	color: var(--secondaryColor);
+}
+
+.h2_left {
+	font-size: 1.5rem;
+	color: var(--textColor);
+}
+
+.p_left {
+	color: var(--textColor);
+}
+
+.povezava_footer {
+	color: var(--textColor);
+	text-decoration: none;
+}
+
+.povezava_footer:hover {
+	color: var(--secondaryColor);
+}
+
+.MuiDivider-fullWidth {
+	border-color: var(--mainColorLight) !important;
+}
+
+.p_kontakt {
+	text-align: center;
+	vertical-align: middle;
+	color: var(--textColor);
+	margin-top: 0.5rem;
+}
+
+.ikona_kontakt {
+	height: 13px;
+	width: 18px;
+}
+
+.sub_footer {
+	background-color: var(--mainColorMedium);
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}

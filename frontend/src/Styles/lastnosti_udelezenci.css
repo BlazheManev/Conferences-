@@ -1,0 +1,77 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Titillium Web", sans-serif;
+}
+
+:root {
+	--mainColor: #0d2137;
+	--mainColorMedium: #193c5f;
+	--mainColorLight: #2e77ae;
+    --backgroundLightMain: #DFECF6;
+	--secondaryColor: #ff8e2b;
+	--textColor: #eee;
+}
+
+.seznam_vsebina {
+    background-color: var(--backgroundLightMain);
+}
+
+.seznam_oblika {
+    padding-top: 2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    padding-bottom: 2rem;
+}
+
+@media screen and (max-width: 700px) {
+	.seznam_oblika {
+        padding-top: 2rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        padding-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+	.seznam_oblika {
+        padding-top: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        padding-bottom: 2rem;
+    }
+}
+
+.seznam_ikona_vsi {
+    min-height: 30px;
+    min-width: 30px;
+}
+
+.seznam_ikona_invalidi {
+    min-height: 30px;
+    min-width: 30px;
+}
+
+.counter_h2_seznam {
+    font-size: 2.5rem;
+}
+
+.seznam_counter_vsebina {
+    background-color: var(--mainColorLight);
+    border-radius: 4px;
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+	.seznam_counter_vsebina_vsi {
+        margin-bottom: 2rem !important;
+    }
+
+    .seznam_counter_vsebina_invalidi {
+        margin-top: 2rem !important;
+    }
+}

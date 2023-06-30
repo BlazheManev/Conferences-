@@ -1,0 +1,230 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Titillium Web", sans-serif;
+}
+
+:root {
+	--mainColor: #0d2137;
+	--mainColorMedium: #193c5f;
+	--mainColorLight: #2e77ae;
+    --backgroundLightMain: #DFECF6;
+	--secondaryColor: #ff8e2b;
+	--textColor: #eee;
+}
+
+.pregled_seznam_vsebina {
+    background-color: var(--mainColorLight);
+}
+
+.pregled_lokacija {
+    background-color: var(--mainColorMedium);
+}
+
+.seznam_oblika {
+    padding-top: 2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    padding-bottom: 2rem;
+}
+
+@media screen and (max-width: 700px) {
+	.seznam_oblika {
+        padding-top: 2rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        padding-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+	.seznam_oblika {
+        padding-top: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        padding-bottom: 2rem;
+    }
+}
+
+.pregled_ikona_vsi {
+    min-height: 40px;
+    min-width: 40px;
+}
+
+.pregled_ikona_invalidi {
+    min-height: 40px;
+    min-width: 40px;
+}
+
+.counter_h2_pregled {
+    font-size: 4rem;
+}
+
+.seznam_counter_vsebina {
+    background-color: var(--mainColorLight);
+    border-radius: 4px;
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.pregled_lokacija_vsebina {
+    border-radius: 4px;
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.pregled_counter_vsebina_vsi {
+    margin-top: 5rem !important;
+    margin-bottom: 3rem !important;
+}
+
+@media screen and (max-width: 1100px) {
+	.pregled_counter_vsebina_vsi {
+        margin-top: 3rem !important;
+        margin-bottom: 2rem !important;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+	.pregled_counter_vsebina_vsi {
+        margin-top: 3rem !important;
+        margin-bottom: 2rem !important;
+    }
+
+    .pregled_ikona_vsi {
+        min-height: 30px;
+        min-width: 30px;
+    }
+    
+    .pregled_ikona_invalidi {
+        min-height: 30px;
+        min-width: 30px;
+    }
+    
+    .counter_h2_pregled {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 850px) {
+	.pregled_counter_vsebina_vsi {
+        margin-top: 1rem !important;
+        margin-bottom: 1rem !important;
+    }
+
+    .pregled_ikona_vsi {
+        min-height: 25px;
+        min-width: 25px;
+    }
+    
+    .pregled_ikona_invalidi {
+        min-height: 25px;
+        min-width: 25px;
+    }
+    
+    .counter_h2_pregled {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+	.pregled_counter_vsebina_vsi {
+        margin-top: 1rem !important;
+        margin-bottom: 1rem !important;
+    }
+
+    .pregled_ikona_vsi {
+        min-height: 25px;
+        min-width: 25px;
+    }
+    
+    .pregled_ikona_invalidi {
+        min-height: 25px;
+        min-width: 25px;
+    }
+    
+    .counter_h2_pregled {
+        font-size: 2.5rem;
+    }
+
+    .pop_img {
+        max-width: 50%;
+    }
+}
+
+.pregled_podatki_h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 800px) {
+	.pregled_podatki_h3 {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+	.pregled_podatki_h3 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .pregled_izpis_podatki {
+        text-align: center !important;
+    }
+
+    .pregled_center_school_img_small {
+        display: block !important;
+    }
+
+    .school_img {
+        max-width: 50%;
+    }
+
+    .pregled_center_school_img_big {
+        display: none;
+    }
+}
+
+.pregled_izpis_podatki {
+    text-align: left;
+    color: var(--backgroundLightMain);
+}
+
+.school_img {
+    margin: auto !important;
+}
+
+.pregled_center_school_img {
+    margin: auto !important;
+}
+
+.pregled_center_school_img_small {
+    display: none;
+}
+
+.pregled_lastnosti_h1 {
+    color: var(--backgroundLightMain);
+}
+
+.pregled_urnik_div {
+    background-color: #193c5f;
+    text-align: left;
+}
+
+.timeline_datum {
+    color: var(--backgroundLightMain);
+}
+
+@media screen and (max-width: 1170px) {
+	.timeline_datum {
+        color: var(--mainColorMedium);
+    }
+}
