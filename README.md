@@ -1,49 +1,50 @@
-# Sistem za vodenje konference 
+## Conference Management System
 
-## Namen projekta
-Cilj naše aplikacije je pomagati organizirati konferenco na lažji način, preko enotnega vmesnika. Cilj aplikacije je tudi izboljšati samo preglednost oseb ki se nameravajo udeležiti konference, ter udeležencev.
+### Project Purpose
+The goal of our application is to facilitate the organization of a conference through a unified interface. The application also aims to improve the transparency of individuals who intend to participate in the conference, as well as the attendees.
 
-## Funkcionalnosti
--	**Ustvarjanje konference**
--	**Vnos prostora konference**
--	**Pošiljanje vabil za udeležbo**
--	**Pošiljanje obvestil prijavljenim uporabnikom**
--	**Vnos gradiva**
--	**Ustvarjanje urnika**
--	**Seznam prijavljenih uporabnikov**
--	**Seznam udeležencev konference**
--	**Ustvarjanje QR-kode**
--	**Pregled podatkov konference**
--	**Branje QR-kode**
--	**Prenos objavljenega gradiva**
+### Functionalities
+- **Creating a Conference**
+- **Entering Conference Venue Details**
+- **Sending Invitations to Participants**
+- **Sending Notifications to Registered Users**
+- **Uploading Conference Materials**
+- **Creating a Schedule**
+- **List of Registered Users**
+- **List of Conference Attendees**
+- **Generating QR Codes**
+- **Conference Data Overview**
+- **Reading QR Codes**
+- **Downloading Published Materials**
 
-## Razvojno okolje
-- VisualStudio Code
+### Development Environment
+- Visual Studio Code
 
+### Setting Up the Project
+Since the project is hosted on GitHub, you can set up the project by cloning it.
 
-## Vzpostavitev projekta
-Ker se projekt nahaja na Githab-u, lahko vzpostavimo projekt tako da kloniramo 
+### Running the Project
+#### Running the Backend
+Run the backend in the ```\backend``` directory with the command ```nodemon index.js``` or simply ```nodemon```. You can also start it with the command ```node index.js```.
 
-## Zagon projekta
-### Zagon backenda
-Backend zaženemo v mapi ```\backend>``` z ukazom ```nodemon index.js``` ali samo ```nodemon``` lahko pa tudi z ukazom ```node index.js```.
+#### Running the Frontend
+Run the frontend in the ```\frontend``` directory with the command ```npm start```.
 
-### Zagon frontenda
-Frontend zaženemo v mapi ```\frontend>``` z ukazom ```npm start```.
+### Project Installation
+The project can be installed on a hosting provider through the repository. The description of this process is available in the [documentation](Documentation/Conference_Management_System.docx).
 
-## Namestitev projekta
-Projekt se lahko namesti na hosting ponudnika preko repozitorija. Opis tega se nahaja v [dokumentaciji](Documentation/Sistem_za_vodenje_konference.docx).
-
-## Vloge
-Uporabnik/udeleženec konference
+### Roles
+User/Conference Participant
 username: 123@yahoo.com
 password: 123456
 
-Organizator
+Organizer
 username: jan@yahoo.com
 password: 123456
 
-## Člani
-- **Pojbič Gregor**
-- **Manev Blazhe**
-- **Lukač Jan**
+### Team Members
+- **Gregor Pojbič**
+- **Blazhe Manev**
+- **Jan Lukač**
+
+*Note: I've translated your README from Slovenian to English with `##` headers for each section, making it easy for you to copy.*
