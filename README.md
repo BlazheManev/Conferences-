@@ -46,5 +46,3 @@ password: 123456
 - **Gregor Pojbič**
 - **Blazhe Manev**
 - **Jan Lukač**
-
-*Note: I've translated your README from Slovenian to English with `##` headers for each section, making it easy for you to copy.*
